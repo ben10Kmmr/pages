@@ -6,15 +6,15 @@ import {
   Link
 } from 'react-router-dom'
 
-//https://github.com/suthon-coe/pages
-
 const students = [
   {id: '12', name: 'John Doe', score: 23},
   {id: '18', name: 'Jenny Jason', score: 27},
   {id: '20', name: 'Tim Brown', score: 22}
 ]
 
-const Home = () => (<div>Home</div>)
+const Home = () => (<div>Home
+  <li><Link to="/students">students</Link></li>
+</div>)
 const Students = () => (
   <div>
     {

@@ -21,6 +21,7 @@ const Students = () => (
       _.map(students, s => <StudentLink {...s} key={s.id}/>)
     }
     <Route path="/students/:id" component={StudentContainer}/>
+    <li><Link to="/">back</Link></li>
   </div>
 )
 const StudentContainer = ({match}) => {

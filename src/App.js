@@ -34,7 +34,7 @@ const StudentLink = ({id, name}) => (
   <div><Link to={`/students/${id}`}>{name}</Link></div>
 )
 const StudentLine = ({id, name, score}) => (
-  <div>{id} {name} = {score}</div>
+  <div>No ={id} Name :{name} Score ={score}</div>
 )
 class App extends Component {
   render() {

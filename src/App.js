@@ -7,9 +7,9 @@ import {
 } from 'react-router-dom'
 
 const students = [
-  {id: '12', name: 'John Doe', score: 23},
-  {id: '18', name: 'Jenny Jason', score: 27},
-  {id: '20', name: 'Tim Brown', score: 22}
+  {id: '12', name: 'J', score: 23},
+  {id: '14', name: 'Bank', score: 27},
+  {id: '18', name: 'Bob', score: 22}
 ]
 
 const Home = () => (<div>Home
